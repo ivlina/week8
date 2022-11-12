@@ -10,3 +10,15 @@
     color: black;
 }
 
+.welcome {
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.cards {
+    margin-bottom: 2em;
+}
