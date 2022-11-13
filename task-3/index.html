@@ -7,32 +7,38 @@
     <title>VR</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="assets/logo.png" alt="Логорип компании">
-            <p>Виарушка</p>
+    <header class="header">
+        <div class="header__logo">
+            <img src="assets/logo.png" alt="Логорип компании" class="header__logo-pic">
+            <a href="#" class="header__logo-name">Виарушка</a>
         </div>
-        <a href="#">Корзина <img src="assets/basket.png" alt="Иконка корзины"></a>
+        <a href="#" class="header__basket-button">Корзина <img src="assets/icons/basket.png" alt="Иконка корзины"></a>
     </header>
 
-    <main>
-        <h1>Виртуальная реальность без проводов</h1>
-        <p>Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.</p>
-        <a href="#">Купить <img src="assets/bank-card.png" alt="Иконка банковской карты"></a>
+    <main class="main">
+        <div class="main__left-side">
+            <h1 class="main__title">Виртуальная реальность без проводов</h1>
+            <p class="main__text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.</p>
+            <a href="#" class="main__buy-button">Купить <img src="assets/bank-card.png" alt="Иконка банковской карты"></a>
+        </div>
+
+        <img src="assets/player.png" alt="Картинка игрока" class="main__player-image">
     </main>
 
-    <figure>
-        <img src="assets/player.png" alt="Картинка игрока">
-    </figure>
-
-    <footer>
-        <a href="capabilities.html">Возможности</a>
-        <a href="#">Где купить</a>
-        <a href="#">Доствка</a>
-        <a href="#">Помощь</a>
+    <footer class="footer">
+        <a href="capabilities.html" class="footer__item">Возможности</a>
+        <a href="#" class="footer__item">Где купить</a>
+        <a href="#" class="footer__item">Доставка</a>
+        <a href="#" class="footer__item">Помощь</a>
     </footer>  
 </body>
 </html>

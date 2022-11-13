@@ -1,0 +1,135 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    margin-top: 1em;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-pic {
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 5px;
+}
+
+.header__logo-name {
+    font-weight: 600;
+    font-size: 1.8em;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: black;
+}
+
+.header__basket-button {
+    font-weight: 400;
+    font-size: 1.3em;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #5222D0;
+    border-radius: 100px;
+    padding: 14px 16px;
+}
+
+.header__basket-button:hover {
+    text-decoration: underline;
+}
+
+/* Основная часть на первой старнице */
+
+.main {
+    margin-left: 6em;
+
+    position: relative;
+}
+
+.main__left-side {
+    width: 40vw;
+    padding-top: 60px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.main__title {
+    font-size: 4em;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+.main__text {
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+
+    width: 35vw;
+    margin-bottom: 60px;
+}
+
+.main__buy-button {
+    font-weight: 400;
+    font-size: 1.3em;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #5222D0;
+    border-radius: 100px;
+    padding: 28px 33px;
+}
+
+.main__buy-button:hover {
+    text-decoration: underline;
+}
+
+.main__player-image {
+    position: absolute;
+    z-index: 0;
+
+    top: 0;
+    right: 0;
+}
+
+/* Основная часть на второй старнице */
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 8em 50vw 2em 6em;
+
+    position: relative;
+    z-index: 1;
+}
+
+.footer__item {
+    color: #5222D0;
+
+    font-weight: 300;
+    font-size: 1.3em;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+.footer__item:hover {
+    text-decoration: underline;
+}

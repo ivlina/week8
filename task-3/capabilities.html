@@ -4,63 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VR</title>
+    <title>VR Возможности</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="assets/logo.png" alt="Логорип компании">
-            <a href="index.html">Виарушка</a>
+    <header class="header">
+        <div class="header__logo">
+            <img src="assets/logo.png" alt="Логорип компании" class="header__logo-pic">
+            <a href="index.html" class="header__logo-name">Виарушка</a>
         </div>
-        <a href="#">Корзина <img src="assets/basket.png" alt="Иконка корзины"></a>
+        <a href="#" class="header__basket-button">Корзина <img src="assets/icons/basket.png" alt="Иконка корзины"></a>
     </header>
 
-    <main>
-        <h1>Возможности</h1>
+    <main class="capabilities">
+        <h1 class="capabilities__title">Возможности</h1>
 
-        <section>
-            <img src="assets/scientist.png" alt="Иллюстрация учёного">
-            <h2>Без проводов</h2>
-            <p>Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p>
-        </section>
-
-        <section>
-            <img src="assets/robot.png" alt="Иллюстрация робота">
-            <h2>Без компьютера</h2>
-            <p>Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
-        </section>
-
-        <section>
-            <img src="assets/worker-with-laptop.png" alt="Иллюстрация человека за ноутбуком">
-            <h2>До 10 часов работы</h2>
-            <p>Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p>
-        </section>
-
-        <section>
-            <h2>Сотни игр</h2>
-            <p>Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p>
-        </section>
-
-        <section>
-            <h2>Почти даром</h2>
-            <p>По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p>
-        </section>
-
-        <section>
-            <h2>Новости</h2>
-            <input type="email" name="" id="">
-            <button>Подписаться</button>
-        </section>
+        <div class="capabilities__sections">
+            <section class="capabilities__section" class="capabilities__top">
+                <img src="assets/scientist.png" alt="Иллюстрация учёного">
+                <h2>Без проводов</h2>
+                <p>Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p>
+            </section>
+    
+            <section class="capabilities__section" class="capabilities__top">
+                <img src="assets/robot.png" alt="Иллюстрация робота">
+                <h2>Без компьютера</h2>
+                <p>Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
+            </section>
+    
+            <section class="capabilities__section" class="capabilities__top">
+                <img src="assets/worker-with-laptop.png" alt="Иллюстрация человека за ноутбуком">
+                <h2>До 10 часов работы</h2>
+                <p>Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p>
+            </section>
+    
+            <section class="capabilities__section" class="capabilities__bottom">
+                <h2>Сотни игр</h2>
+                <p>Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p>
+            </section>
+    
+            <section class="capabilities__section" class="capabilities__bottom">
+                <h2>Почти даром</h2>
+                <p>По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p>
+            </section>
+    
+            <section class="capabilities__section" class="capabilities__bottom">
+                <h2>Новости</h2>
+                <input type="email" placeholder="Эл.почта">
+                <button>Подписаться</button>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <a href="#">Возможности</a>
-        <a href="#">Где купить</a>
-        <a href="#">Доствка</a>
-        <a href="#">Помощь</a>
+    <footer class="footer">
+        <a href="#" class="footer__item">Возможности</a>
+        <a href="#" class="footer__item">Где купить</a>
+        <a href="#" class="footer__item">Доставка</a>
+        <a href="#" class="footer__item">Помощь</a>
     </footer>    
 </body>
 </html>
