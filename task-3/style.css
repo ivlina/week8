@@ -57,6 +57,7 @@ font-family: 'Roboto Slab', serif; */
     margin-left: 6em;
 
     position: relative;
+    margin-bottom: 8em;
 }
 
 .main__left-side {
@@ -67,7 +68,8 @@ font-family: 'Roboto Slab', serif; */
     z-index: 1;
 }
 
-.main__title {
+.main__title,
+.capabilities__title {
     font-size: 4em;
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
@@ -106,7 +108,66 @@ font-family: 'Roboto Slab', serif; */
     right: 0;
 }
 
-/* Основная часть на второй старнице */
+/* Основная часть на второй странице */
+
+.capabilities {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.capabilities__sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 0.9fr;
+    column-gap: 1.5em;
+}
+
+.capabilities__section {
+    padding: 20px 20px;
+}
+
+.capabilities__scientist-section,
+.capabilities__games-section {
+    border: 1px solid #EC615B;
+}
+
+.capabilities__news-section {
+    background-color: #EC615B;
+    color: #FFFFFF;
+    padding-left: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.capabilities__email {
+    border: 0;
+    width: 90%;
+    height: 3em;
+    margin-bottom: 20px;
+}
+
+.capabilities__subscribe-button {
+    background-color: #5222D0;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 100px;
+    padding: 14px 16px;
+
+    display: block;
+}
+
+.capabilities__subtitle {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.capabilities__top {
+    padding-bottom: 1.5em;
+}
+
+.capabilities__text {
+    font-family: 'Roboto Slab', serif;
+}
 
 /* FOOTER */
 
@@ -115,7 +176,7 @@ font-family: 'Roboto Slab', serif; */
     justify-content: space-between;
     align-items: center;
 
-    margin: 8em 50vw 2em 6em;
+    margin: 2em 50vw 2em 6em;
 
     position: relative;
     z-index: 1;
