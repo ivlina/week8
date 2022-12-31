@@ -123,18 +123,12 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .capabilities__section {
-    padding: 20px 20px;
-}
-
-.capabilities__scientist-section,
-.capabilities__games-section {
-    border: 1px solid #EC615B;
+    padding: 20px;
 }
 
 .capabilities__news-section {
     background-color: #EC615B;
     color: #FFFFFF;
-    padding-left: 25px;
     margin-left: 20px;
     margin-right: 20px;
 }
